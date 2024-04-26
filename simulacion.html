@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>HMI</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              HMI
+            </span>
+          </a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="secuencia_proceso.html"> Secuencia del Proceso </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="simulacion.html"> Simulacion </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="descripcion_proceso.html">Descripcion del proceso</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- service section -->
+
+  <section class="work_section layout_padding">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h3 class="">
+          SIMULACION SEMAFORO
+        </h3>
+      </div>
+    </div>
+    <div class="container layout_padding">
+      <div class="d-flex p-2 bd-highlight justify-content-between">
+        <div>
+          <button class="btn btn-primary justify-content-start" type="button" data-toggle="collapse" data-target="#simulacion" aria-expanded="false" aria-controls="simulacion">
+            Mostrar Simulacion
+          </button>
+        </div>
+        <div>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#simulacion" aria-expanded="false" aria-controls="simulacion">
+            Ocultar Simulacion
+          </button>
+        </div>
+        </div>
+      </div>
+      <div class="collapse" id="simulacion">
+        <div class="card card-body layout_padding2-top text-center">
+        <div class="tls_container">
+            <div class="tl_container">
+                <div class="trafficLight" id="tf1">
+                    <span class="red" id="red1"></span>
+                    <span class="yellow" id="yellow1"></span>
+                    <span class="green" id="green1"></span>
+                </div>
+            </div>
+            <div class="tl_container">
+                <div class="trafficLight" id="tf2">
+                    <span class="red" id="red2"></span>
+                    <span class="yellow" id="yellow2"></span>
+                    <span class="green" id="green2"></span>
+                </div>
+            </div>
+            <div class="tl_container">
+                <div class="trafficLight" id="tf3">
+                    <span class="red" id="red3"></span>
+                    <span class="yellow" id="yellow3"></span>
+                    <span class="green" id="green3"></span>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-success mt-2" data-toggle="button" aria-pressed="false" autocomplete="off" id="btn_on_off">
+            ON/OFF
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info-logo">
+            <h2>
+              HMI
+            </h2>
+            <p>
+              Luis Miguel Rodríguez Lorenzo v-25.727.830 <br> Jesus Antonio Arias Belén v-28.016.230
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info-nav">
+            <h4>
+              Navigation
+            </h4>
+            <ul>
+              <li>
+                <a href="index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="secuencia_proceso.html">
+                  Secuencia del proceso
+                </a>
+              </li>
+              <li>
+                <a href="simulacion.html">
+                  Simulacion
+                </a>
+              </li>
+              <li>
+                <a href="descripcion_proceso.html">
+                  Descripcion del proceso
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info_section -->
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2024
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>
